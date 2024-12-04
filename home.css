@@ -1,0 +1,171 @@
+.navbar {
+  box-shadow: 0px 3px 3px rgba(255, 255, 255, 0.51);
+}
+
+.navbar-brand {
+  font-family: "Playfair Display";
+}
+
+.jumbotron {
+  background-image: url(https://img.freepik.com/premium-photo/interior-modern-restaurant-hotel-kitchen-with-stainless-steel-appliances_177786-3684.jpg);
+  background-position: center;
+  background-size: cover;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  min-height: 100vh;
+}
+
+.jumbotron h1 {
+  color: red;
+  font-family: "Vast Shadow";
+  padding: 0.5rem;
+  text-shadow: 4px 3px 3px rgba(162, 159, 159, 0.51);
+}
+
+.jumbotron p {
+  color: rgb(255, 255, 255);
+  padding: 0.5rem;
+  font-family: "Sour Gummy";
+  text-shadow: 4px 3px 3px rgba(162, 159, 159, 0.51);
+}
+
+#home {
+  padding-top: 5rem;
+}
+
+#about {
+  padding-top: 3.5rem;
+  padding-bottom: 1rem;
+  justify-content: center;
+}
+
+#about h2 {
+  font-family: "Cinzel";
+  font-size: 3rem;
+}
+
+.skill {
+  background-color: #e2edff;
+  padding: 2rem;
+  padding-top: 4rem;
+  min-height: 100vh;
+}
+
+.skill h1 {
+  font-family: "Cinzel";
+  font-size: 3rem;
+  text-align: center;
+}
+
+.progress {
+  background-color: rgb(0, 0, 0);
+}
+
+#work {
+  padding-top: 3.5rem;
+  padding-bottom: 1.5rem;
+  background-color: brown;
+}
+
+#work h1 {
+  font-family: "Cinzel";
+  font-size: 3rem;
+  text-align: center;
+  padding: 2rem;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+  margin-bottom: 20px;
+  font-size: 5rem;
+  color: #333;
+  text-align: center;
+  font-family: "Cinzel";
+  padding-top: 2rem;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #555;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact-form textarea {
+  resize: none;
+  height: 150px;
+}
+
+.contact-form button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}
+
+.contact-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.contact-info div {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .contact-form {
+    margin: 20px;
+    padding: 15px;
+  }
+
+  .contact-form h2 {
+    font-size: 3rem;
+    padding-top: 3rem;
+  }
+
+  .contact-info {
+    grid-template-columns: 1fr;
+  }
+}
